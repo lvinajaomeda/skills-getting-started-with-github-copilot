@@ -28,7 +28,10 @@ activities = {
         "participants": ["michael@mergington.edu", "daniel@mergington.edu"]
     },
     "Programming Class": {
-
+        "description": "Learn programming fundamentals and build software projects",
+        "schedule": "Tuesdays and Thursdays, 3:30 PM - 4:30 PM",
+        "max_participants": 20,
+        "participants": ["emma@mergington.edu", "sophia@mergington.edu"]
             },
             "Soccer Team": {
                 "description": "Join the school soccer team and compete in inter-school matches",
@@ -65,10 +68,6 @@ activities = {
                 "schedule": "Mondays, 3:30 PM - 5:00 PM",
                 "max_participants": 16,
                 "participants": ["mia@mergington.edu", "william@mergington.edu"]
-        "description": "Learn programming fundamentals and build software projects",
-        "schedule": "Tuesdays and Thursdays, 3:30 PM - 4:30 PM",
-        "max_participants": 20,
-        "participants": ["emma@mergington.edu", "sophia@mergington.edu"]
     },
     "Gym Class": {
         "description": "Physical education and sports activities",

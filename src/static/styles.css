@@ -142,3 +142,97 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Global loading indicator */
+.loading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 16px 0;
+  color: #1a237e;
+}
+
+.spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #c5cae9;
+  border-top-color: #1a237e;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Participants section */
+.participants-section {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px dashed #ddd;
+}
+
+.participants-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+  color: #1a237e;
+  margin-bottom: 8px;
+}
+
+.participants-count-badge {
+  background-color: #e8eaf6;
+  color: #1a237e;
+  border: 1px solid #c5cae9;
+  font-size: 12px;
+  line-height: 1;
+  border-radius: 12px;
+  padding: 3px 8px;
+}
+
+.participants-list {
+  list-style: none;
+  padding-left: 0;
+  color: #333;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.participant-email {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.participant-delete {
+  background: transparent;
+  color: #b71c1c;
+  border: none;
+  padding: 4px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.participant-delete:hover,
+.participant-delete:focus {
+  background: #ffebee;
+  outline: none;
+}
+
+.icon-trash {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.participants-empty {
+  color: #666;
+  font-style: italic;
+}
